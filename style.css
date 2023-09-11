@@ -11,6 +11,10 @@ body {
   background: linear-gradient(to right, #c9d6ff, #e2e2e2);
 }
 
+.dark-theme {
+  background: #000000;
+}
+
 nav {
   background: #c9d6ff;
   background: -webkit-linear-gradient(
@@ -84,6 +88,16 @@ nav {
   background-color: #ff5722; /* Change to your desired style */
   font-family: monospace;
   border-radius: 10px;
+}
+
+#theme-toggle {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  margin: 20px auto;
 }
 
 /* CONTACT SECTION */
