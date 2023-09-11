@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background: #c9d6ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #c9d6ff,
+    #e2e2e2
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #c9d6ff, #e2e2e2);
+}
+
+nav {
+  background: #c9d6ff;
+  background: -webkit-linear-gradient(
+    to right,
+    rgba(201, 214, 255, 0.53),
+    rgba(226, 226, 226, 0.53)
+  );
+  background: linear-gradient(
+    to right,
+    rgba(201, 214, 255, 0.53),
+    rgba(226, 226, 226, 0.53)
+  );
+  backdrop-filter: blur(5px);
+}
+
+/* CONSTANTS */
+.section-heading {
+  width: fit-content;
+  margin: 0 auto;
+  padding: 0 10px;
+  letter-spacing: 3px;
+  color: #e8edff;
+  background-color: #93cbee;
+}
+
+.section-divider {
+  border-top: 10px dotted gray;
+  width: 75px;
+  margin: 4.5rem auto;
+}
+
+/* HERO SECTION */
+.hero {
+  height: 100vh;
+  background-image: url(./assets/construction\ 1.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.hero-quote {
+  font-size: 1.45rem;
+}
+
+/* ABOUT SECTION */
+.people-card-inner {
+  background-color: #e8edff;
+}
+
+/* PROJECTS SECTION */
+.project-card {
+  background-color: rgba(232, 237, 255, 0.5);
+  backdrop-filter: blur(5px);
+}
+
+/* .project-description {
+  color: ;
+} */
+
+/* STYLE ME BUTTON */
+
+#styleMeButton {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+#styleMeButton.clicked {
+  background-color: #ff5722; /* Change to your desired style */
+  font-family: monospace;
+  border-radius: 10px;
+}
+
+/* CONTACT SECTION */
+.contact-form {
+  max-width: 768px;
+}
+
+textarea {
+  resize: none;
+}
+
+.contact-form-button {
+  background-color: #93cbee;
+  border: #e8edff 2px solid;
+}
